@@ -1,0 +1,16 @@
+# Source files (users don't need these)
+src/
+tests/
+examples/
+
+# Config files
+tsconfig.json
+tsconfig.build.json
+.github/
+
+# Documentation (except README)
+DOCUMENTATION.md
+
+# Development files
+.gitignore
+*.log

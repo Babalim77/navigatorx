@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  position: relative;
+  min-height: 100svh;
+  max-height: 100svh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: hsl(30, 59%, 53%);
+  color: #222222;
+  font: 100% Source Code Pro, Inconsolata, Menlo, monospace;
+}
+
+p {
+  background: #e3e2db;
+}
+
+.shortcuts {
+  list-style: none;
+  display: grid;
+  gap: 0.25rem;
+  text-align: center;
+  padding: 0;
+
+  .shortcut {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+    select {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      background: hsla(0, 0%, 100%, 0.5);
+      border: none;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font: inherit;
+      color: inherit;
+    }
+
+    .key {
+      width: 2rem;
+      text-align: center;
+      aspect-ratio: 1;
+      border-radius: 0.5rem;
+      background: hsla(0, 0%, 100%, 0.5);
+      border: none;
+      outline: none;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .action,
+    .plus {
+      display: grid;
+      align-content: center;
+      font-weight: 700;
+    }
+
+    .action {
+      text-align: left;
+    }
+  }
+}
+
+#save {
+  width: 100%;
+  max-width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: hsla(0, 0%, 100%, 0.5);
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  display: grid;
+  margin-inline: auto;
+}
+
+.modal {
+  position: absolute;
+  margin: 0;
+  inset: auto;
+  left: calc(50% - 176px);
+  margin-inline: auto;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid rgba(8, 8, 8, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.alert-body {
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  display: flex;
+  gap: 1rem;
+  max-width: 400px;
+
+  input {
+    margin: auto;
+    font-style: italic;
+  }
+
+  img {
+    max-width: 40px;
+    max-height: 40px;
+    aspect-ratio: 1;
+    margin: auto;
+  }
+
+  button {
+    max-width: 40px;
+    max-height: 40px;
+    aspect-ratio: 1;
+    margin: auto;
+    background: none;
+    border: 0;
+    display: flex;
+
+    svg {
+      margin: auto;
+      min-width: 40px;
+      min-height: 40px;
+      max-width: 40px;
+      max-height: 40px;
+      stroke: #222222;
+    }
+  }
+}

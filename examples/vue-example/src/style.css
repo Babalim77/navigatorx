@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: peru;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+}

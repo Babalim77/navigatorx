@@ -1,0 +1,57 @@
+{
+  "name": "navigatorx",
+  "version": "1.0.0",
+  "description": "A lightweight, type-safe keyboard shortcut manager for web applications",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs && node scripts/rename-cjs.js",
+    "build:esm": "tsc --module esnext --outDir dist/esm && node scripts/rename-esm.js",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "keyboard",
+    "shortcuts",
+    "hotkeys",
+    "keybindings",
+    "navigation",
+    "typescript",
+    "keyboard-shortcuts",
+    "react",
+    "vue",
+    "svelte"
+  ],
+  "author": "Claude Zion <claudezion@icloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudezion/navigatorx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claudezion/navigatorx/issues"
+  },
+  "homepage": "https://github.com/claudezion/navigatorx#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
