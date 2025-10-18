@@ -629,7 +629,7 @@ See [LICENSE](./LICENSE) for details.
 
 <div align="center">
 
-**NavigatorX v1.0.0**
+**NavigatorX v1.0.1**
 
 Made with TypeScript and ☕
 
